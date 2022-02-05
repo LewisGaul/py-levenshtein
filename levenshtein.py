@@ -35,4 +35,4 @@ if __name__ == "__main__":
     word1 = sys.argv[1]
     word2 = sys.argv[2]
     print("Distance:", distance(word1, word2))
-    print("Ratio: {.3f}".format(ratio(word1, word2)))
+    print("Ratio: {:.3f}".format(ratio(word1, word2)))
