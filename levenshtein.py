@@ -3,7 +3,7 @@ __all__ = ("distance", "ratio")
 import sys
 
 
-def distance(word1: str, word2: str) -> float:
+def distance(word1: str, word2: str) -> int:
     # Initialise the matrix.
     distances = [[0] * (len(word2) + 1) for _ in range(len(word1) + 1)]
     for t1 in range(len(word1) + 1):
